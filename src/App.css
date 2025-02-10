@@ -1,0 +1,10 @@
+.fa-solid{
+    color: red ;
+    position: relative !important;
+    top: 0;
+    right: 0;
+}
+
+body{
+    background-image: url(./assets/logo/light.svg)
+}
