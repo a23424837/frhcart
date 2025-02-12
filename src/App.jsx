@@ -9,7 +9,7 @@ import "./App.css";
 import { ToastContainer } from 'react-toastify';
 import {NextUIProvider} from '@nextui-org/react'
 import Login from './pages/login/login'
-import Register from './pages/Register/register'
+import Register from './pages/Register/Register'
 import Brands from './pages/Brands/Brands'
 import Categres from './pages/categres/categres'
 import Carts from './pages/carts/carts'
