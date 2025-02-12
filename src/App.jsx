@@ -1,9 +1,11 @@
 
-import React, { Children } from 'react'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Home from './pages/Home/Home'
-import "./App.css"
-import Layout from './layouts/Layout/Layout'
+// import { Children } from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from './pages/Home/Home';
+import "./App.css";
+
+
+
 import { ToastContainer } from 'react-toastify';
 import {NextUIProvider} from '@nextui-org/react'
 import Login from './pages/login/login'
@@ -17,6 +19,8 @@ import Contextprovider from './Contexts/Context'
 import AuthContextprovider from './Authcontext/Authcontext'
 import Productdetails from './pages/productdetails/Productdetails'
 import Adress from './pages/address/Adress'
+import Layout from './layouts/Layout/Layout'
+
 
  const router=  createBrowserRouter([
   {
