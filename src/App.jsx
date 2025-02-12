@@ -19,7 +19,7 @@ import Contextprovider from './Contexts/Context'
 import AuthContextprovider from './Authcontext/Authcontext'
 import Productdetails from './pages/productdetails/Productdetails'
 import Adress from './pages/address/Adress'
-import Layout from './layouts/Layout/Layout.jsx'
+import Layout from './layouts/Layout/Layout'
 
 
  const router=  createBrowserRouter([
